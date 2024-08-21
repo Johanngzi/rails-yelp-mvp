@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
@@ -61,3 +62,5 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+gem "simple_form"
